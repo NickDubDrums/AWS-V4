@@ -25,12 +25,14 @@ body {
 
 .lyrics-top {
 	z-index: -1;
-	position: fixed;
-
 	text-align: center;
 	font-size: 55px;
 	text-transform: uppercase;
 	color: #f1f1f1;
+	position: fixed;
+	top: 75px;
+	left: 40px;
+
 }
 
 /*.topimg {
@@ -220,7 +222,7 @@ body {
 .stream-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
 
 }
 
@@ -233,20 +235,21 @@ body {
 .stream-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .stream-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
 /*Pictures*/
 .pic-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
+	z-index: -30000;
 
 }
 
@@ -259,20 +262,21 @@ body {
 .pic-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .pic-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
+
 /*Videos*/
 .vid-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
 
 }
 
@@ -285,20 +289,20 @@ body {
 .vid-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .vid-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
 /*Dates*/
 .dates-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
 
 }
 
@@ -311,20 +315,20 @@ body {
 .dates-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .dates-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
 /*Tabs*/
 .tabs-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
 
 }
 
@@ -337,20 +341,20 @@ body {
 .tabs-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .tabs-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
 /*Contact*/
 .cont-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #f1f1f1;
+	background: #333;
 
 }
 
@@ -363,13 +367,13 @@ body {
 .cont-section h1 {
 	text-align: center;
 	text-transform: uppercase;
-	color: #333;
+	color: #f1f1f1;
 }
 
 .cont-border {
 	width: 180px;
 	height: 4px;
-	background: #333;
+	background: #f1f1f1;
 	margin: 60px auto;
 }
 
