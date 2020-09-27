@@ -5,7 +5,7 @@
 
 /*Backgrownd Settings*/
 body {
-	background-color: #f1f1f1;
+	background-color: #000;
 
 /*background-image: url(bg.jpg);
 	background-size: cover;*/}
@@ -24,7 +24,7 @@ body {
 }
 
 .lyrics-top {
-	z-index: -1;
+	z-index: -300;
 	text-align: center;
 	font-size: 55px;
 	text-transform: uppercase;
@@ -43,7 +43,9 @@ body {
 
 /*Drop Down Menu*/
 	nav {position: fixed;
-		top: 0%;}
+		top: 0%;
+		z-index: 1000000000;
+	}
 
 	nav {width: 100%;
 		height: 61px;
@@ -123,6 +125,7 @@ body {
 .aboutus-section h1 {
 	text-align: center;
 	text-transform: uppercase;
+	font-family: 'Montserrat', sans-serif;
 	color: #f1f1f1;
 }
 
@@ -135,6 +138,7 @@ body {
 
 .bio p {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	color: #f1f1f1;
 }
@@ -160,6 +164,7 @@ body {
 
 .merch-section h2 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -192,6 +197,7 @@ body {
 
 .merch-section .merch-info p {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 25px;
 	color: #f1f1f1;
 	position: relative;
@@ -199,7 +205,8 @@ body {
 }
 .merch-section .merch-info a {
 	color: #f1f1f1;
-	text-decoration: none;
+	text-decoration: underline;
+	font-family: 'Montserrat', sans-serif;
 }
 @media screen and (max-width:960px){
 	.merch-section .image {
@@ -222,7 +229,7 @@ body {
 .stream-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background: #000;
 
 }
 
@@ -234,6 +241,7 @@ body {
 
 .stream-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -248,8 +256,8 @@ body {
 .pic-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
-	z-index: -30000;
+	background: #000;
+	
 
 }
 
@@ -261,6 +269,7 @@ body {
 
 .pic-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -288,6 +297,7 @@ body {
 
 .vid-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -314,6 +324,7 @@ body {
 
 .dates-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -340,6 +351,7 @@ body {
 
 .tabs-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
@@ -366,6 +378,7 @@ body {
 
 .cont-section h1 {
 	text-align: center;
+	font-family: 'Montserrat', sans-serif;
 	text-transform: uppercase;
 	color: #f1f1f1;
 }
