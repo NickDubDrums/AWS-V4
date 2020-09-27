@@ -1,17 +1,23 @@
 
 * {margin: 0;
 	padding: 0;
-	box-sizing: border-box;}
+	box-sizing: border-box;
+	z-index: 0;
+}
 
 /*Backgrownd Settings*/
 body {
 	/*background-color: #000*/
 	background-image: url(bg.jpg);
-	background-size: cover;}
+	background-size: cover;
+	z-index: 0;
+
+}
 /*Header Picture*/
 .container{
 	max-width: 100%;
-	margin: 0 auto;
+	height: 600px
+	margin: auto; 
 	background: #333
 	font-size: 24px;
 	padding: 25px;
@@ -23,9 +29,9 @@ body {
 	z-index: 0;
 }
 
-.lyrics-top {
+.container h1 {
 	z-index: -4;
-	text-align: center;
+	text-align: left;
 	font-size: 55px;
 	text-transform: uppercase;
 	color: #f1f1f1;
@@ -204,10 +210,26 @@ body {
 	top: 35px;
 }
 .merch-section .merch-info a {
+	display: inline-block;
 	color: #f1f1f1;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 }
+
+
+.contact::after {
+	content: '';
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: #f1f1f1;
+	transition: width .3s;
+}
+.contact:hover:after {
+	width: 100%;
+	transition: width .3s;
+}
+
 @media screen and (max-width:960px){
 	.merch-section .image {
 		flex: 33.33%;
@@ -255,11 +277,9 @@ body {
 /*Pictures*/
 .pic-section {
 	width: 100%;
-	padding: 60px 0;
+	padding: 60px 110px;
 	background-image: linear-gradient(#000,#0a0a0a);
-	
-
-}
+	}
 
 .pic-width{
 	width: 100%;
