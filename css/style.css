@@ -30,12 +30,12 @@ body {
 }
 
 .container h1 {
-	z-index: -4;
+	z-index: 0;
 	text-align: left;
 	font-size: 55px;
 	text-transform: uppercase;
 	color: #f1f1f1;
-	position: fixed;
+	position: relative;
 	top: 75px;
 	left: 40px;
 
