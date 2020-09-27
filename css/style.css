@@ -5,10 +5,9 @@
 
 /*Backgrownd Settings*/
 body {
-	background-color: #000;
-
-/*background-image: url(bg.jpg);
-	background-size: cover;*/}
+	/*background-color: #000*/
+	background-image: url(bg.jpg);
+	background-size: cover;}
 /*Header Picture*/
 .container{
 	max-width: 100%;
@@ -20,11 +19,12 @@ body {
 .parallax {
 	
 	min-height: 600px;
-	background: transparent;
+	background: transparent
+	z-index: 0;
 }
 
 .lyrics-top {
-	z-index: -300;
+	z-index: -4;
 	text-align: center;
 	font-size: 55px;
 	text-transform: uppercase;
@@ -49,7 +49,7 @@ body {
 
 	nav {width: 100%;
 		height: 61px;
-		background-color: #fff}
+		background-color: #f3f3f3}
 
 	/*Scritta pre drop down menu*/
 	/*nav p {font-family: arial;
@@ -94,7 +94,7 @@ body {
 	nav ul li ul {display: none;
 		position: absolute;
 		left: 7px;
-		background-color: #fff;
+		background-color: #f3f3f3;
 		padding: 10px;
 		border-radius: 0px 0px 4px 4px;}
 
@@ -105,7 +105,7 @@ body {
 
 	nav ul li ul li a {padding: 8px 12px;}
 
-	nav ul li ul li a:hover {background-color: #f3f3f3;}
+	nav ul li ul li a:hover {background-color: #e3e3e3;}
 
 
 
@@ -113,7 +113,7 @@ body {
 .aboutus-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 }
 
 .aboutus-width{
@@ -152,7 +152,7 @@ body {
 .merch-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
@@ -229,7 +229,7 @@ body {
 .stream-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #000;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
@@ -256,7 +256,7 @@ body {
 .pic-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #000;
+	background-image: linear-gradient(#000,#0a0a0a);
 	
 
 }
@@ -285,7 +285,7 @@ body {
 .vid-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
@@ -312,7 +312,7 @@ body {
 .dates-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
@@ -339,7 +339,7 @@ body {
 .tabs-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
@@ -366,7 +366,7 @@ body {
 .cont-section {
 	width: 100%;
 	padding: 60px 0;
-	background: #333;
+	background-image: linear-gradient(#000,#0a0a0a);
 
 }
 
