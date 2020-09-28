@@ -75,11 +75,17 @@ background-image: url(bg.jpg);*/
 		position: absolute;
 		left: 20px;
 	}
+	.drop-menu {
+		position: relative;
+		top: -167px;
+
+	}
 
 
 	nav ul li {float: left;
 		list-style: none;
-		position: relative;}
+		position: relative;
+	}
 
 
 	nav ul li a {display: block;
@@ -383,6 +389,23 @@ background-image: url(bg.jpg);*/
 	background: #f1f1f1;
 	margin: 60px auto;
 }
+
+.videowrapper {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 25px;
+	height: 0px;
+}
+.videowrapper iframe{
+	position: absolute;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+}
+
 /*Dates*/
 .dates-section {
 	width: 100%;
