@@ -118,26 +118,45 @@ background-image: url(bg.jpg);*/
 		margin: 4px;
 	}
 
-	@media screen and (max-width: 768px){
+	@media screen and (max-width: 796px){
 		body{
 			overflow-x: hidden;
 		}
-		nav ul li: hover ul {display: none;}
-		nav ul li a {
-			position: absolute;
-			left: 0;
-			height: 92vh;
-			top: 8vh;
-			background-color: #f3f3f3;
-			display: flex;
-			flex-direction: column;
-			width: 50%;
+
+		.container h1 {
+			position: relative;
+			top: 450px;
+		}
+		.drop-menu {
+			display: none;
+		}
+
 			
+}
 
+@media screen and (max-width: 450px){
+	.container h1 {
+		font-size: 30px;
+		position: relative;
+		top: 530px;
+	}
+}
+@media screen and (max-width: 400px){
+	.container h1 {
+		font-size: 25px;
+		position: relative;
+		top: 530px;
+	}
+}
+
+@media screen and (max-width: 342px){
+	.container h1 {
+		font-size: 25px;
+		position: relative;
+		left: 5px;
 	}
 
-	}
-
+}
 /* About Us GUI*/
 .aboutus-section {
 	width: 100%;
