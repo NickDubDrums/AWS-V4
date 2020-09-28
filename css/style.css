@@ -331,9 +331,15 @@ background-image: url(bg.jpg);*/
 }
 @media screen and (max-width: 460px){
 	.spoti{
-		width: 230px;
+		width: 350px;
 	}
 
+}
+
+@media screen and (max-width: 412px){
+	.spoti{
+		width: 250px;
+	}
 }
 /*Pictures*/
 .pic-section {
@@ -360,6 +366,16 @@ background-image: url(bg.jpg);*/
 	height: 4px;
 	background: #f1f1f1;
 	margin: 60px auto;
+}
+@media screen and (max-width:769px){
+	.pic-section {
+		padding: 20px 50px;
+	}
+}
+@media screen and (max-width:510px){
+	.pic-section {
+		padding: 20px 10px;
+	}
 }
 
 /*Videos*/
