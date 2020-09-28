@@ -317,6 +317,18 @@ background-image: url(bg.jpg);*/
 	background: #f1f1f1;
 	margin: 60px auto;
 }
+@media screen and (max-width: 684px){
+	.spoti {
+		width: 400px;
+		height: 200px;
+	}
+}
+@media screen and (max-width: 460px){
+	.spoti{
+		width: 230px;
+	}
+
+}
 /*Pictures*/
 .pic-section {
 	width: 100%;
