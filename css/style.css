@@ -143,8 +143,8 @@ background-image: url(bg.jpg);*/
 		width: 25px;
 		height: 3px;
 		background-color: #333;
-		margin: 4px;
-	}
+		margin: 5px;
+		transition: all 0.3s ease;	}
 
 	@media screen and (max-width: 870px){
 		body{
@@ -206,7 +206,15 @@ background-image: url(bg.jpg);*/
 		transform: translateX(0px);
 	}
 }
-
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-5px, 6px);
+}
+.toggle .line2{
+	opacity: 0;
+}
+.toggle .line3{
+	transform: rotate(45deg) translate(-5px, -6px);
+}
 
 
 
