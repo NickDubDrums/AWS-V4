@@ -146,7 +146,7 @@ background-image: url(bg.jpg);*/
 		margin: 4px;
 	}
 
-	@media screen and (max-width: 796px){
+	@media screen and (max-width: 870px){
 		body{
 			overflow-x: hidden;
 		}
