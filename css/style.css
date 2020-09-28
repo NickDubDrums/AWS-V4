@@ -406,18 +406,18 @@ background-image: url(bg.jpg);*/
 	margin: 60px auto;
 }
 
-.videowrapper {
+.border-wrapper {
 	position: relative;
 	padding-bottom: 56.25%;
 	padding-top: 25px;
 	height: 0px;
 }
-.videowrapper iframe{
+.border-wrapper iframe{
 	position: absolute;
-	left: 0;
-	top: 0;
-	right: 0;
-	bottom: 0;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	bottom: 0px;
 	height: 100%;
 	width: 100%;
 }
