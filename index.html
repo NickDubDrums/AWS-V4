@@ -32,6 +32,7 @@
 			<li><a class="clickmenu" href="#pictures">Pictures</a></li>
 			<li><a class="clickmenu" href="#videos">Videos</a></li>
 			<li><a class="clickmenu" href="#dates">Next Dates</a></li>
+			<li><a class="clickmenu" href="#ly">Lyrics</a></li>
 			<li><a class="clickmenu" href="#tabs">Tabs/Sheets</a></li>
 			<li><a class="clickmenu" href="#contact">Contact Us</a></li>
 		</ul>
@@ -54,6 +55,7 @@
 			<li><a href="#pictures">Pictures</a></li>
 			<li><a href="#videos">Videos</a></li>
 			<li><a href="#dates">Next Dates</a></li>
+			<li><a href="#ly">Lyrics</a></li>
 			<li><a href="#tabs">Tabs/Sheets</a></li>
 			<li><a href="#contact">Contact Us</a></li>
 		</ul>
@@ -64,20 +66,19 @@
 
 <section>
 
-	<!--<div class="container">-->
-		<div class="parallax">
-			<img class="gruppolap" src="img/gruppo.jpg" alt="gruppolap">
-			<img class="gruppovert" src="img/gruppovert.jpg" alt="gruppovert">
-			<h1 class="toply">I'M WAITING ON THE EDGE</h1>
-		</div>
-	<!--
-</div>-->
+	<div class="parallax">
+		<img class="gruppolap" src="img/gruppo.jpg" alt="gruppolap">
+		<img class="gruppovert" src="img/gruppovert.png" alt="gruppovert">
+		<img class="logovert" src="img/LOGO.png" alt="logovert">
+		<h1 class="toply">I'M WAITING ON THE EDGE</h1>
+	</div>
+
 
 	<script>
 		
 		window.addEventListener('scroll', function(e) {
 
-			const target = document.querySelector('.gruppolap, .gruppovert');
+			const target = document.querySelector('.gruppolap');
 
 			var scrolled = window.pageYOffset;
 			var rate = scrolled * 0.5;
@@ -85,9 +86,34 @@
 			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
 
 		})
+
+		window.addEventListener('scroll', function(e) {
+
+			const target2 = document.querySelector('.gruppovert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.5;
+
+			target2.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
 		
+		window.addEventListener('scroll', function(e) {
+
+			const target3 = document.querySelector('.logovert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * -1;
+
+			target3.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
 
 	</script>
+
+
+
+
 <!--<br class="br1">
 <br class="br1">
 <br class="br2">
@@ -205,33 +231,72 @@
 <br>
 <br>
 <br>
+<!--Dates-->
 <a name="dates">
 	<div class="dates-section">
 		<h1>Next Dates</h1>
 		<div class="dates-width">
 			<div class="dates-border"></div>
+			<div class="datesupdate">
+				<p>No dates available for now</p>
+			</div>
 
 		
 	</div>
 <br>
 <br>
 <br>
+<!--Lyrics-->
+<a name="ly">
+	<div class="ly-section">
+		<h1>Lyrics</h1>
+		<div class="ly-width">
+			<div class="ly-border"></div>
+
+		
+	</div>
+<br>
+<br>
+<br>
+<!--Tabs-->
 <a name="tabs">
 	<div class="tabs-section">
 		<h1>Tabs/Sheets</h1>
 		<div class="tabs-width">
 			<div class="tabs-border"></div>
 
+
 		
 	</div>
 <br>
 <br>
 <br>
+
+<!--Contact-->
 <a name="contact">
 	<div class="cont-section">
 		<h1>Contact Us</h1>
 		<div class="cont-width">
 			<div class="cont-border"></div>
+
+			<p>Send E-MAIL</p>
+
+			<form class="contact-form" action="contactform.php" method="post">
+				<input type="text" name="name" placeholder="Full name">
+				<input type="text" name="mail" placeholder="your E-MAIL">
+				<input type="text" name="subject" placeholder="Subject">
+				<textarea name="message" placeholder="Message"></textarea>
+				<button type="submit" name="submit">SEND MAIL</button>
+
+
+
+
+
+
+
+
+
+
 
 		
 	</div>
