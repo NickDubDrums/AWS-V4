@@ -62,18 +62,43 @@
 
 	</nav>
 
-<header>
+<section>
 
-	<div class="container">
-		<div class="parallax-window" data-parallax="scroll" data-image-src="img/gruppo.jpg" data-speed="0.5">
-			<h1>I'M WAITING ON THE EDGE</h1>
+	<!--<div class="container">-->
+		<div class="parallax">
+			<img class="gruppolap" src="img/gruppo.jpg" alt="gruppolap">
+			<img class="gruppovert" src="img/gruppovert.jpg" alt="gruppovert">
+			<h1 class="toply">I'M WAITING ON THE EDGE</h1>
 		</div>
-	</div>
+	<!--
+</div>-->
 
-</header>
+	<script>
+		
+		window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.gruppolap, .gruppovert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.5;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+		
+
+	</script>
+<!--<br class="br1">
+<br class="br1">
+<br class="br2">
+<br class="br2">
+<br class="br2">
+<br class="br3">-->
+</section>
 
 
 <main>
+<div class="sfondo">
 	<br>
 	<br>
 	<br>
@@ -210,6 +235,8 @@
 
 		
 	</div>
+
+</div>
 </main>
 
 <footer>
