@@ -67,9 +67,12 @@
 <section>
 
 	<div class="parallax">
-		<img class="gruppolap" src="img/gruppo.jpg" alt="gruppolap">
-		<img class="gruppovert" src="img/gruppovert.png" alt="gruppovert">
-		<img class="logovert" src="img/LOGO.png" alt="logovert">
+		<img class="bglap" src="img/Paralap/BG Band.png" alt="bglap">
+		<img class="grouplap" src="img/Paralap/Band.png" alt="grouplap">
+		<img class="logolap" src="img/Paralap/Logo Particles.png" alt="logolap">
+		<img class="bgvert" src="img/Paravert/BG Band vert.png" alt="bgvert">
+		<img class="gruppovert" src="img/Paravert/Band vert.png" alt="gruppovert">
+		<img class="logovert" src="img/Paravert/Logo Particles vert.png" alt="logovert">
 		<h1 class="toply">I'M WAITING ON THE EDGE</h1>
 	</div>
 
@@ -78,12 +81,45 @@
 		
 		window.addEventListener('scroll', function(e) {
 
-			const target = document.querySelector('.gruppolap');
+			const target = document.querySelector('.bglap');
 
 			var scrolled = window.pageYOffset;
-			var rate = scrolled * 0.5;
+			var rate = scrolled * 0.6;
 
 			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+			window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.grouplap');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.4;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+				window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.logolap');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.2;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+			window.addEventListener('scroll', function(e) {
+
+			const target2 = document.querySelector('.bgvert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.6;
+
+			target2.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
 
 		})
 
@@ -92,7 +128,7 @@
 			const target2 = document.querySelector('.gruppovert');
 
 			var scrolled = window.pageYOffset;
-			var rate = scrolled * 0.5;
+			var rate = scrolled * 0.4;
 
 			target2.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
 
@@ -103,7 +139,7 @@
 			const target3 = document.querySelector('.logovert');
 
 			var scrolled = window.pageYOffset;
-			var rate = scrolled * -1;
+			var rate = scrolled * 0.2;
 
 			target3.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
 

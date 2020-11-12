@@ -23,15 +23,43 @@ background-image: url(bg.jpg);*/
 section {
 	width: 100%;
 }
-.gruppolap {
+
+.bglap {
 	position: relative;
+	z-index: -3;
+	width: 100%;
+	height: 100%;
+	top: 60px;
+	object-fit: cover;
+}
+
+.grouplap {
+	position: absolute;
+	z-index: -2;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: -0px;
+	object-fit: cover;
+	/*top: -550px;
+	/*padding-bottom: -550px;*/
+}
+
+.logolap {
+	position: absolute;
 	z-index: -1;
 	width: 100%;
 	height: 100%;
 	top: 0px;
+	left: 0px;
 	object-fit: cover;
+	/*top: -1100px;
+	/*padding-bottom: -550px;*/
 }
 
+.bgvert {
+	display: none;
+}
 .gruppovert {
 	display: none;
 }
@@ -73,7 +101,7 @@ section {
 	nav ul {float: left;}*/
 
 	.img-logo1 {width:30px;
-		position: absolute;
+		position: relative;
 		left: 0px;
 		top: 15px;}
 
@@ -527,29 +555,57 @@ section {
 			.br2 .br3 {
 				display: contents;
 			}
-			.gruppolap {
+			.bglap {
 				position: relative;
 				top: 30px
+			}
+
+			.grouplap{
+				height: 100%;
+				width: 100%;
+
+			}
+
+			.logolap {
+				height: 100%;
+				width: 100%;
+
 			}
 		}
 
 
 
 
-	@media screen and (max-width: 455px){
+	@media screen and (max-width: 768px){
 
 		section {
 			width: 100%;
 		}
-
+		.bglap {
+			display: none;
+		
+			}	
 		.gruppolap {
 			display: none;
 		
 			}	
+		.logolap {
+			display: none;
+		
+			}	
 
-		.gruppovert {
+		.bgvert {
 			display: block;
 			position: relative;
+			z-index: -3;
+			width: 100%;
+			height: 100%;
+			top: 60px;
+			object-fit: cover;
+}
+		.gruppovert {
+			display: block;
+			position: absolute;
 			z-index: -2;
 			width: 100%;
 			height: 100%;
