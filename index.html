@@ -32,6 +32,7 @@
 			<li><a class="clickmenu" href="#pictures">Pictures</a></li>
 			<li><a class="clickmenu" href="#videos">Videos</a></li>
 			<li><a class="clickmenu" href="#dates">Next Dates</a></li>
+			<li><a class="clickmenu" href="#ly">Lyrics</a></li>
 			<li><a class="clickmenu" href="#tabs">Tabs/Sheets</a></li>
 			<li><a class="clickmenu" href="#contact">Contact Us</a></li>
 		</ul>
@@ -54,6 +55,7 @@
 			<li><a href="#pictures">Pictures</a></li>
 			<li><a href="#videos">Videos</a></li>
 			<li><a href="#dates">Next Dates</a></li>
+			<li><a href="#ly">Lyrics</a></li>
 			<li><a href="#tabs">Tabs/Sheets</a></li>
 			<li><a href="#contact">Contact Us</a></li>
 		</ul>
@@ -62,28 +64,103 @@
 
 	</nav>
 
+<section>
 
-	<header>
-	<div class="container" data-z-index="0">
-		<div class="parallax" data-parallax="scroll" data-image-src="img/gruppo.jpg" data-speed="0.5">
-			<h1 class="lyrics-top">i'm waiting on the edge</h1>
-		</div>
+	<div class="parallax">
+		<img class="bglap" src="img/Paralap/BG Band.png" alt="bglap">
+		<img class="grouplap" src="img/Paralap/Band.png" alt="grouplap">
+		<img class="logolap" src="img/Paralap/Logo Particles.png" alt="logolap">
+		<img class="bgvert" src="img/Paravert/BG Band vert.png" alt="bgvert">
+		<img class="gruppovert" src="img/Paravert/Band vert.png" alt="gruppovert">
+		<img class="logovert" src="img/Paravert/Logo Particles vert.png" alt="logovert">
+		<h1 class="toply">I'M WAITING ON THE EDGE</h1>
 	</div>
-	</header>
-<!-- Phone Parallax-->
-<header>
-	<div class="pcontainer-1">
-		<h1>I'M WAITING ON THE EDGE</h1>
-	</div>
-		<img scr="img/gruppovert.jpg" alt="PhoneGroup" class="pgroup">
-		<!--<img scr="img/gruppovert.jpg" alt="PhoneGroup" class="pgroup">-->
-	</header>
+
+
+	<script>
+		
+		window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.bglap');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.6;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+			window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.grouplap');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.4;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+				window.addEventListener('scroll', function(e) {
+
+			const target = document.querySelector('.logolap');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.2;
+
+			target.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+			window.addEventListener('scroll', function(e) {
+
+			const target2 = document.querySelector('.bgvert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.6;
+
+			target2.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+		window.addEventListener('scroll', function(e) {
+
+			const target2 = document.querySelector('.gruppovert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.4;
+
+			target2.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+		
+		window.addEventListener('scroll', function(e) {
+
+			const target3 = document.querySelector('.logovert');
+
+			var scrolled = window.pageYOffset;
+			var rate = scrolled * 0.2;
+
+			target3.style.transform = 'translate3d(0px, '+rate+'px, 0px)';
+
+		})
+
+	</script>
 
 
 
+
+<!--<br class="br1">
+<br class="br1">
+<br class="br2">
+<br class="br2">
+<br class="br2">
+<br class="br3">-->
+</section>
 
 
 <main>
+<div class="sfondo">
 	<br>
 	<br>
 	<br>
@@ -119,6 +196,7 @@
 			
 			<div class="border"></div>
 			<div class="mgallery">
+<!--
 
 			<a href="img/merch/shirtbig.jpg" class="image" data-lightbox="mygallery" data-title="description image">
 				<img src="img/merch/shirt.jpg">
@@ -133,10 +211,21 @@
 				<img src="img/merch/shirtedoardo.jpg">
 			</a>
 
+
+
+
 	</div>
 	</div>
 		<div class="merch-info">
-			<p>To order from our merchandize list <a href="#contact" class="contact">CONTACT US</a></p>
+			<p>To order from our merchandize list <a href="#contact" class="contact">CONTACT US</a></p>-->
+<div id="my-store-40033562"></div>
+<div>
+<script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?40033562&data_platform=code&data_date=2020-11-08" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-40033562");</script>
+</div>
+
+
+
+
 		</div>
 	</div>
 
@@ -190,36 +279,77 @@
 <br>
 <br>
 <br>
+<!--Dates-->
 <a name="dates">
 	<div class="dates-section">
 		<h1>Next Dates</h1>
 		<div class="dates-width">
 			<div class="dates-border"></div>
+			<div class="datesupdate">
+				<p>No dates available for now</p>
+			</div>
 
 		
 	</div>
 <br>
 <br>
 <br>
+<!--Lyrics-->
+<a name="ly">
+	<div class="ly-section">
+		<h1>Lyrics</h1>
+		<div class="ly-width">
+			<div class="ly-border"></div>
+
+		
+	</div>
+<br>
+<br>
+<br>
+<!--Tabs-->
 <a name="tabs">
 	<div class="tabs-section">
 		<h1>Tabs/Sheets</h1>
 		<div class="tabs-width">
 			<div class="tabs-border"></div>
 
+
 		
 	</div>
 <br>
 <br>
 <br>
+
+<!--Contact-->
 <a name="contact">
 	<div class="cont-section">
 		<h1>Contact Us</h1>
 		<div class="cont-width">
 			<div class="cont-border"></div>
 
+			<p>Send E-MAIL</p>
+
+			<form class="contact-form" action="contactform.php" method="post">
+				<input type="text" name="name" placeholder="Full name">
+				<input type="text" name="mail" placeholder="your E-MAIL">
+				<input type="text" name="subject" placeholder="Subject">
+				<textarea name="message" placeholder="Message"></textarea>
+				<button type="submit" name="submit">SEND MAIL</button>
+
+
+
+
+
+
+
+
+
+
+
 		
 	</div>
+
+</div>
 </main>
 
 <footer>
